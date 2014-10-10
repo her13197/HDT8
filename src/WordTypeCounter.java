@@ -7,18 +7,20 @@ Autor: Eduardo Castellanos
 Descripción: Programa principal. 
 */
 import java.io.*;
+import java.util.Scanner;
 
 class WordTypeCounter {
 	public static void main(String[] args) throws Exception
 	{
+		Scanner teclado = new Scanner(System.in);
 		if(2 > 1)
 		{
 			// Declaración e inicialización de variables.
 			// el primer parametro indica el nombre del archivo con las definiciones de las palabras
-			File wordFile = new File("C:\\Users\\Dell Latitude\\Documents\\NetBeansProjects\\HDT8\\src\\files\\words.txt");
+			File wordFile = new File("words.txt");
 			
 			// el segundo parametro indica el nombre del archivo que tiene el texto a analizar
-			File textFile = new File("C:\\Users\\Dell Latitude\\Documents\\NetBeansProjects\\HDT8\\src\\files\\text.txt");
+			File textFile = new File("text.txt");
 			
 			// el tercer parametro sirve para seleccionar la implementacion que se usara para
 			// guardar el conjunto de palabras. Use el valor 1 para indicar que se empleara
@@ -28,7 +30,9 @@ class WordTypeCounter {
 			//  3 Splay Tree
 			//  4 Hash Table
 			//  5 TreeMap (de java collection framework)
-			int implementacion = 5;
+			int implementacion = 0;
+			System.out.print("Ingrese la implementacion a utilizar:\n");
+			implementacion=teclado.nextInt();
 			
 			BufferedReader wordreader;
 			BufferedReader textreader;
