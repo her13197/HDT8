@@ -1,11 +1,17 @@
-/*
-UVG
-Algoritmos y Estructuras de Datos - 2011
-Hoja de trabajo 7
-Autor: Eduardo Castellanos
-
-Descripción: SimpleSet ejemplo con ArrayList.
-*/
+ /**
+  * Universidad del Valle de Guatemala
+  * Integrantes:
+  * Luis Carlos Ralón
+  * Erick Hernández
+  * Johnny del Cid
+  * Codigo obtenido de:
+  * UVG
+  * Algoritmos y Estructuras de Datos - 2011
+  * Hoja de trabajo 7
+  * Autor: Eduardo Castellanos
+    * 
+    * Descripción: SimpleSet ejemplo con ArrayList.
+ */
 import java.util.ArrayList;
 
 class SimpleSet implements WordSet

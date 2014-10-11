@@ -1,3 +1,16 @@
+ /**
+  * Universidad del Valle de Guatemala
+  * Integrantes:
+  * Luis Carlos Ralón
+  * Erick Hernández
+  * Johnny del Cid
+  * Codigo obtenido de:
+  * http://optimizarsinmas.blogspot.com/2011/01/manejar-colecciones-ordenadas-treeset-y.html
+  * http://www.tutorialspoint.com/java/java_treemap_class.htm
+  * http://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html
+  * 
+  * implementacion de un treemap
+ */
 
 import java.util.TreeMap;
 

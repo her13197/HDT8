@@ -1,10 +1,16 @@
-/*
-UVG
-Algoritmos y Estructuras de Datos - 2011
-Hoja de trabajo 7 
-Autor: Eduardo Castellanos
-
-Descripción: Word. Clase para almacenar las palabras junto con su tipo. 
+ /**
+  * Universidad del Valle de Guatemala
+  * Integrantes:
+  * Luis Carlos Ralón
+  * Erick Hernández
+  * Johnny del Cid
+  * Codigo obtenido de:
+  * UVG
+  * Algoritmos y Estructuras de Datos - 2011
+  * Hoja de trabajo 7
+  * Autor: Eduardo Castellanos
+    * 
+    * Descripción: Word. Clase para almacenar las palabras junto con su tipo. 
 */
 class Word implements Comparable<Word> {
 	private String word;

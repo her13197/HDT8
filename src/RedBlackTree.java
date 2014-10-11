@@ -1,4 +1,16 @@
-    // RedBlackTree class
+   /**
+  * Universidad del Valle de Guatemala
+  * Integrantes:
+  * Luis Carlos Ralón
+  * Erick Hernández
+  * Johnny del Cid
+  * Codigo obtenido de:
+  * http://users.cis.fiu.edu/~weiss/dsaajava/code/DataStructures/
+  * Implements a red-black tree.
+     * Note that all "matching" is based on the compareTo method.
+     * @author Mark Allen Weiss
+ */    
+// RedBlackTree class
     //
     // CONSTRUCTION: with a negative infinity sentinel
     //
@@ -7,16 +19,11 @@
     // void remove( x )       --> Remove x (unimplemented)
     // Comparable find( x )   --> Return item that matches x
     // Comparable findMin( )  --> Return smallest item
-    // Comparable findMax( )  --> Return largest item
+    // Comparable fin   dMax( )  --> Return largest item
     // boolean isEmpty( )     --> Return true if empty; else false
     // void makeEmpty( )      --> Remove all items
     // void printTree( )      --> Print tree in sorted order
 
-    /**
-     * Implements a red-black tree.
-     * Note that all "matching" is based on the compareTo method.
-     * @author Mark Allen Weiss
-     */
     public class RedBlackTree implements WordSet
     {
         public RedBlackTree()

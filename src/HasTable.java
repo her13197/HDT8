@@ -1,3 +1,14 @@
+   /**
+  * Universidad del Valle de Guatemala
+  * Integrantes:
+  * Luis Carlos Ralón
+  * Erick Hernández
+  * Johnny del Cid
+  * Codigo obtenido de:
+  * http://www.java2s.com/Tutorial/Java/0140__Collections/Getallkeysandelementsfromahashtable.htm	
+  * http://javabasico.osmosislatina.com/curso/progfinal/hashtables.htm
+  * http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html
+ */
 
 import java.util.Enumeration;
 import java.util.Hashtable;
